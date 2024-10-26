@@ -49,9 +49,9 @@ Llama Learn leverages Llama AI technology to address the diverse learning needs 
 ---
 
 ## Technology Stack
-- Backend: Python, Django, Llama API
-- Frontend: ReactJS, Tailwind CSS
-- AI Models: Llama for natural language processing and clustering algorithms
+- Backend: Python, Node.js, Llama API
+- Frontend: ReactJS, CSS
+- AI Models: Llama for natural language processing and clustering algorithms Llama 3.2
 - Database: MongoDB
 
 ---
