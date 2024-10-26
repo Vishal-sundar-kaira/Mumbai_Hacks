@@ -1,0 +1,74 @@
+@media (max-width: 1000px) {
+    .row {
+      flex-direction: column;
+    }
+    .col {
+      margin: 10px 0;
+    }
+  }
+.col {
+    margin: 30px 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+.imagebox{
+    position: relative;
+    background-image: url(./Components/images/Rectangle\ 3.png);
+    width: 100vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.image{
+    position: absolute;
+    top: 42%;
+    left: 4%;
+}
+.cardimg{
+    width: 80%;
+}
+.cardimg:hover{
+    width: 90%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.right{
+    display: flex;
+    width: 50vw;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.right img{
+    height: 30%;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.box{
+    width: 10vw;
+    height: 8vh;
+    padding-top: 5px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 10px;
+    border-color: green;
+    background-color: white;
+    color: green;
+    margin: 10px;
+}
+.navtext{
+    font-size: 1.2rem;
+}
+.navtext:hover{
+    font-weight: bold;
+}

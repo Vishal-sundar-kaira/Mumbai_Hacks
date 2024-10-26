@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+}
+
+.login-page, .student-dashboard, .teacher-dashboard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #6200ea;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+.subject-list, .chapter-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.assessment-page .question {
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  background-color: #4A90E2; /* Soft blue color */
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #357ABD; /* Slightly darker blue */
+  transform: scale(1.05); /* Slight scaling effect */
+}
+
+button:active {
+  background-color: #2C5E9E; /* Darkest shade on click */
+  transform: scale(0.98); /* Slight press effect */
+}
+
+button:focus {
+  outline: none; /* Remove outline */
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.4); /* Blue focus ring */
+}
