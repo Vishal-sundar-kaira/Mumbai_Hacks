@@ -15,10 +15,6 @@ Llama Learn leverages Llama AI technology to address the diverse learning needs 
 - [Technology Stack](#technology-stack)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-  - [Usage](#usage)
-- [Future Plans](#future-plans)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
